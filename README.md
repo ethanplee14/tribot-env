@@ -1,4 +1,4 @@
-## About
+## Tribot-Env
 This is a development environment for OSRS TRiBot. It's meant to allow easy tribot bot scripting by wrapping
 various tribot functions into a behavioral tree nodes. Use BTBuilder to create behavioral tree or use util methods.
 
