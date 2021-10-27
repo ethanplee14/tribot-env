@@ -17,7 +17,7 @@ plugins {
     id("org.openjfx.javafxplugin") version "0.0.9"
 }
 
-group = "org.tribot.wastedbro"
+group = "org.tribot.plee"
 version = "1.0.0"
 
 val baseDir = projectDir
