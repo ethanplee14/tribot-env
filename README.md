@@ -2,7 +2,7 @@
 This is a development environment for OSRS TRiBot. It's meant to allow easy tribot bot scripting by wrapping
 various tribot functions into a behavioral tree nodes. Use BTBuilder to create behavioral tree or use util methods.
 
-###Example
+### Example <br>
 Simple woodcutting script. Doesn't include checking for an axe or dropping wood, but it conveys the idea. 
 ```
 sequencer("Woodcut Sequence")
@@ -21,7 +21,7 @@ sequencer("Woodcut Sequence")
     ).build().run()
 ```
 
-###Libraries included: 
+### Libraries included: <br>
 - behavioral-tree: Lightweight library to create behavioral trees in Kotlin
 - tribot: Library for TRiBot. Wraps various tribot builds, actions and common conditions in a behavior tree nodes. 
   Also includes a BankCache, a simple Logger meant for the TRiBot console, and general utility methods.
@@ -30,11 +30,11 @@ sequencer("Woodcut Sequence")
 from GrandExchange, RSBuddy, and Runelite. Created by WastedBro
 
 
-###Creating a Script
+### Creating a Script <br>
 To create a new TRiBot script project, create a new directory in the `scripts` directory. Include a src folder for your 
 src code, and then add the new script to the `settings.gradle.kts`. To import desired libraries to your new project, 
 create a `build.gradle.kts` at your project's root then include dependencies configuration in the file. Check `wcfarm` 
 for an example.
 
-###Caveats
+### Caveats <br>
 `libraries/tribot` is still immature. Will expand the library on an as need basis as more scripts are developed. 
