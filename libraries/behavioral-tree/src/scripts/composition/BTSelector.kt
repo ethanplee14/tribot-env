@@ -6,8 +6,8 @@ package scripts.composition
 class BTSelector(name: String = "BTSelector"): BTNodeContainer(name) {
 
     /**
-     * Iterates each node in order until one returns SUCCESS.
-     * If found, immediately exit out of the loop and report SUCCESS.
+     * Iterates each node in order until one returns SUCCESS or RUNNING.
+     * If found, immediately exit out of the loop and report the results.
      * If all children fail, will report FAILURE
      *
      * @return SUCCESS when any node succeeds. FAILURE when all fails. RUNNING when selector
